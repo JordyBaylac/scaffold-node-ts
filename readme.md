@@ -55,6 +55,7 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 
 ## about n-api
 
+* https://nodejs.org/dist/latest-v9.x/docs/api/n-api.html
 * https://hackernoon.com/n-api-and-getting-started-with-writing-c-addons-for-node-js-cf061b3eae75
 * https://github.com/1995parham/Napi101
 * Require Python2.7
