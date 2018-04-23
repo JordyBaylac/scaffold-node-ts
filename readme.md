@@ -1,7 +1,7 @@
 # what is this?
 
 A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
-*Mocha* for testing, *N-API* for native development. 
+*Mocha* for testing and *N-API* for native development. 
 
 ## Options available (**see package.json**)
 1. **npm run build-cpp**  will build the native code and put it inside a folder named build/
@@ -59,5 +59,5 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 * need Python2.7
 * npm install --global --production windows-build-tools
 * npm install -g node-gyp
-* run with: node-gyp configure build, it will generate the necessary code inside the build/ folder.
+* run with: **node-gyp configure build**, it will generate the necessary code inside the build/ folder.
 
