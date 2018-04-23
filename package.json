@@ -1,0 +1,26 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "using typescript + node",
+  "main": "./src/Main.ts",
+  "scripts": {
+    "build-cpp": "node-gyp configure build",
+    "build": "tsc",
+    "start": "node ./dist/Main.js",
+    "dev": "tsc && ts-node ./src/Main.ts",
+    "prod": "tsc && npm start",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "test-ts": "mocha --require ts-node/register ./src/**/*.spec.ts",
+    "debug": "tsc && node --inspect dist/"
+  },
+  "author": "Jordy",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^5.2.0",
+    "@types/node": "^9.6.6",
+    "mocha": "^5.1.1",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.8.3"
+  }
+}
