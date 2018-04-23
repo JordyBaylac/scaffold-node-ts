@@ -56,7 +56,8 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 ## about n-api
 
 * https://hackernoon.com/n-api-and-getting-started-with-writing-c-addons-for-node-js-cf061b3eae75
-* need Python2.7
+* https://github.com/1995parham/Napi101
+* Require Python2.7
 * npm install --global --production windows-build-tools
 * npm install -g node-gyp
 * run with: **node-gyp configure build**, it will generate the necessary code inside the build/ folder.
