@@ -4,14 +4,14 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 *Mocha* for testing, *N-API* for native development. 
 
 ## Options available (**see package.json**)
-    1. **npm run build-cpp**  *will build the native code and put it inside a folder named build/*
-    2. **npm run build**      *will run the typescript compiler and put the result in the folder dist/*
-    3. **npm run start**      *will run the node server generated in the above command*
-    4. **npm run dev**        *will run the typescript compiler and will run the \*.ts files instead of \*.js*
-    5. **npm run prod**       *will run steps 2 and 3*
-    6. **npm run test**       *run step 2 and call mocha to test every \*.spec.js file*
-    7. **npm run test-ts**    *the same that above but testing over the \*.ts files, not the generated \*.js*
-    8. **npm run debug**      *run the debugger*
+1. **npm run build-cpp**  *will build the native code and put it inside a folder named build/*
+2. **npm run build**      *will run the typescript compiler and put the result in the folder dist/*
+3. **npm run start**      *will run the node server generated in the above command*
+4. **npm run dev**        *will run the typescript compiler and will run the \*.ts files instead of \*.js*
+5. **npm run prod**       *will run steps 2 and 3*
+6. **npm run test**       *run step 2 and call mocha to test every \*.spec.js file*
+7. **npm run test-ts**    *the same that above but testing over the \*.ts files, not the generated \*.js*
+8. **npm run debug**      *run the debugger*
 
 # packages instaled
 
