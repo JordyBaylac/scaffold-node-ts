@@ -13,12 +13,14 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 7. **npm run test-ts**    the same that above but testing over the \*.ts files, not the generated \*.js
 8. **npm run debug**      run the debugger
 
-# packages instaled
+# installed packages
 
 **global packages**
 ```     
             npm install -g typescript  
             npm install -g ts-node
+            npm install -g node-gyp
+            npm install --global --production windows-build-tools //from admin shell
 ```
 
 **local packages (Development)**
@@ -58,8 +60,11 @@ A minimalist example of a *NodeJS* tcp server. Using *Typescript*,
 * https://nodejs.org/dist/latest-v9.x/docs/api/n-api.html
 * https://hackernoon.com/n-api-and-getting-started-with-writing-c-addons-for-node-js-cf061b3eae75
 * https://github.com/1995parham/Napi101
-* Require Python2.7
-* npm install --global --production windows-build-tools
-* npm install -g node-gyp
+* Require Python2.7 (https://www.python.org/downloads/), it will installed if you run **npm install --global --production windows-build-tools**
 * run with: **node-gyp configure build**, it will generate the necessary code inside the build/ folder.
+
+
+# before running *npm install*
+
+* Install the global packages presented in the **installed packages** section
 
